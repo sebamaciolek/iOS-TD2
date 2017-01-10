@@ -10,7 +10,7 @@
         <!--PageScroll-->
         <scene sceneID="1f6-1X-m57">
             <objects>
-                <viewController id="owa-FC-dm4" sceneMemberID="viewController">
+                <viewController id="owa-FC-dm4" customClass="ScrollViewController" customModule="DAM_TD2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7I9-NY-SvR"/>
                         <viewControllerLayoutGuide type="bottom" id="mEx-xI-jna"/>
@@ -21,15 +21,6 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VDr-Cm-Unp">
                                 <frame key="frameInset" minY="50" width="375" height="568"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hZ-Ec-3bC">
-                                        <rect key="frame" x="166" y="241" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="568" id="Dom-EU-iRQ"/>
                                     <constraint firstAttribute="width" constant="375" id="ISk-Uh-i9j"/>
@@ -56,6 +47,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="PageScroll" image="Grumpy" selectedImage="Grumpy" id="Btg-Im-KjV" userLabel="PageScroll"/>
+                    <connections>
+                        <outlet property="outletScrollView" destination="VDr-Cm-Unp" id="VlV-Oi-NeM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SeN-fJ-wSR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
