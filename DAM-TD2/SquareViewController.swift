@@ -19,17 +19,14 @@ class SquareViewController: UIViewController {
         
         rouge.frame = CGRect.init(x: 10, y: 50, width: 300, height: 110)
         rouge.backgroundColor = UIColor.red
-        rouge.center = self.view.center
         self.view.addSubview(rouge)
         
         bleu.frame = CGRect.init(x: 70, y: 180, width: 50, height: 90)
         bleu.backgroundColor = UIColor.blue
-        bleu.center = self.view.center
         self.view.addSubview(bleu)
         
         vert.frame = CGRect.init(x: 60, y: 280, width: 220, height: 130)
         vert.backgroundColor = UIColor.green
-        vert.center = self.view.center
         self.view.addSubview(vert)
     }
 

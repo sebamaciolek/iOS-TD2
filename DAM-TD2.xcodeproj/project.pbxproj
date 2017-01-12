@@ -16,6 +16,7 @@
 		6A45792E1E23BAE700963CEA /* DAM_TD2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45792D1E23BAE700963CEA /* DAM_TD2UITests.swift */; };
 		6A4579401E23CFFC00963CEA /* SquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A45793F1E23CFFC00963CEA /* SquareViewController.swift */; };
 		6A4579481E252C9C00963CEA /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4579471E252C9C00963CEA /* ScrollViewController.swift */; };
+		6A50F1551E282A5800814670 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50F1541E282A5800814670 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6A45792F1E23BAE700963CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A45793F1E23CFFC00963CEA /* SquareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareViewController.swift; sourceTree = "<group>"; };
 		6A4579471E252C9C00963CEA /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollViewController.swift; path = ../ScrollViewController.swift; sourceTree = "<group>"; };
+		6A50F1541E282A5800814670 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				6A45790D1E23BAE700963CEA /* AppDelegate.swift */,
 				6A45790F1E23BAE700963CEA /* ViewController.swift */,
 				6A4579111E23BAE700963CEA /* Main.storyboard */,
+				6A50F1541E282A5800814670 /* TableViewController.swift */,
 				6A45793F1E23CFFC00963CEA /* SquareViewController.swift */,
 				6A4579471E252C9C00963CEA /* ScrollViewController.swift */,
 				6A4579141E23BAE700963CEA /* Assets.xcassets */,
@@ -271,6 +274,7 @@
 				6A4579101E23BAE700963CEA /* ViewController.swift in Sources */,
 				6A45790E1E23BAE700963CEA /* AppDelegate.swift in Sources */,
 				6A4579401E23CFFC00963CEA /* SquareViewController.swift in Sources */,
+				6A50F1551E282A5800814670 /* TableViewController.swift in Sources */,
 				6A4579481E252C9C00963CEA /* ScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +526,7 @@
 				6A4579341E23BAE700963CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4579351E23BAE700963CEA /* Build configuration list for PBXNativeTarget "DAM-TD2Tests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				6A4579371E23BAE700963CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4579381E23BAE700963CEA /* Build configuration list for PBXNativeTarget "DAM-TD2UITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				6A45793A1E23BAE700963CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
